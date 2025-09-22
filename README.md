@@ -205,24 +205,9 @@ The response contract is called automatically, creating an on-chain record and p
 This project provides a solid foundation that could be extended with:
 
 **Enhanced Detection Logic:**
-- Time-based analysis (multiple suspicious approvals over time)
-- Cross-token correlation (same spender getting approvals for multiple tokens)
-- ML-based anomaly detection for more sophisticated threat identification
-
 **Advanced Response Mechanisms:**
-- Integration with wallet security tools to warn users
-- Automatic revocation of suspicious approvals (with user consent)
-- Integration with DeFi protocol pause mechanisms
-
 **Broader Protocol Support:**
-- NFT approval monitoring (ERC721/ERC1155)
-- Multi-chain deployment for comprehensive coverage
-- Integration with major wallet providers
-
 **Performance Optimizations:**
-- Gas-efficient batch monitoring of multiple tokens
-- Optimized data structures for large-scale deployment
-- Advanced caching strategies for historical data
 
 ##  Operator Performance ⚡
 
