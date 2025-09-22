@@ -204,10 +204,10 @@ The response contract is called automatically, creating an on-chain record and p
 
 This project provides a solid foundation that could be extended with:
 
--Enhanced Detection Logic
--Advanced Response Mechanisms
--Broader Protocol Support
--Performance Optimizations
+- Enhanced Detection Logic
+- Advanced Response Mechanisms
+- Broader Protocol Support
+- Performance Optimizations
 
 ##  Operator Performance ⚡
 
