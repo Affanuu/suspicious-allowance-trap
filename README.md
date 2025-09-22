@@ -217,6 +217,8 @@ This project provides a solid foundation that could be extended with:
 - **Block Processing Time**: ~694ms average
 - **Bootstrap Time**: ~4.9s
 - **Network Participation**: Successfully reaching consensus thresholds
+  <img width="1617" height="834" alt="Screenshot 2025-09-21 092701" src="https://github.com/user-attachments/assets/c45f70b8-6fac-48d1-bec0-f915e54bb34c" />
+
 
 
 Contributions are welcome! This project demonstrates practical decentralized security monitoring. Areas for contribution:
