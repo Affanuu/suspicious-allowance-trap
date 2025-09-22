@@ -1,4 +1,4 @@
-[# 🚨 Drosera Suspicious Allowance Trap 🎯
+## 🚨 Drosera Suspicious Allowance Trap 🎯
 
 This repository contains a Drosera trap designed to detect and respond to suspicious ERC20 token allowance increases in real-time. Built to demonstrate practical decentralized security monitoring that can help protect DeFi users from approval based exploits and unauthorized token transfers.
 
