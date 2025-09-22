@@ -1,8 +1,8 @@
-## 🚨 Drosera Suspicious Allowance Trap 🎯
+##  Drosera Suspicious Allowance Trap 🚨
 
 This repository contains a Drosera trap designed to detect and respond to suspicious ERC20 token allowance increases in real-time. Built to demonstrate practical decentralized security monitoring that can help protect DeFi users from approval based exploits and unauthorized token transfers.
 
-## 🤔 What Are Allowance-Based Attacks?
+##  What Are Allowance-Based Attacks? 🤔
 
 ERC20 token allowances allow users to approve third parties (like smart contracts) to spend tokens on their behalf. While essential for DeFi operations, this mechanism can be weaponized by malicious actors.
 
@@ -14,7 +14,7 @@ In an allowance based attack, a malicious contract tricks users into approving l
 
 This trap provides an early warning system to detect when allowances spike unexpectedly, potentially catching attacks in progress.
 
-## ✨ What Does This Trap Do?
+##  What Does This Trap Do?
 
 This Drosera trap provides a real-time, on-chain allowance monitoring. It is designed to:
 
@@ -26,7 +26,7 @@ This Drosera trap provides a real-time, on-chain allowance monitoring. It is des
 All of this happens decentrally, without relying on any off-chain infrastructure.
 
 
-## 🛠️ Technologies Used
+## Technologies Used 🛠️
 
 | Layer | Tool / Protocol |
 |-------|----------------|
@@ -36,7 +36,7 @@ All of this happens decentrally, without relying on any off-chain infrastructure
 | Dev Framework | Foundry |
 | Testing | Forge with comprehensive test suite |
 
-## 📝 Response Mechanism
+## Response Mechanism 📝
 
 When suspicious allowance activity is detected, the trap triggers an automated response:
 
@@ -66,7 +66,7 @@ function executeAllowance(
 
 This creates a permanent, on-chain record of detected threats while enabling custom response actions.
 
-## 🎯 Trap Configuration
+## Trap Configuration
 
 **Current Deployment Details:**
 - **Trap Contract**: `0x7D06f46082e026fD11919e64d9c9157bF8BD59eF`
@@ -84,7 +84,7 @@ block_sample_size = 2
 private_trap = true
 ```
 
-## 📂 Project Structure
+## Project Structure 📂
 
 ```
 suspicious-allowance-trap/
@@ -104,7 +104,7 @@ suspicious-allowance-trap/
 └── .env.example                            # Environment variable template
 ```
 
-## 🚀 Setup & Deploy
+## Setup & Deploy
 
 ### Prerequisites
 - Foundry installed
@@ -140,7 +140,7 @@ forge script script/DeploySuspiciousAllowanceTrap.s.sol \
 DROSERA_PRIVATE_KEY=$PRIVATE_KEY drosera apply
 ```
 
-## ✅ Testing
+## Testing
 
 The project includes comprehensive tests covering all trap functionality:
 
@@ -163,7 +163,7 @@ forge test --match-test test_trigger_on_spike -vvv
 - ✅ Gas usage optimization
 - ✅ Edge cases and error conditions
 
-## 🔍 How It Works
+## How It Works
 
 **1. Monitoring Setup:**
 ```solidity
@@ -183,7 +183,7 @@ When an allowance increases by more than the threshold amount AND the spender is
 **4. Automated Response:**
 The response contract is called automatically, creating an on-chain record and potentially executing additional security measures.
 
-## 💡 Use Cases
+## Use Cases 💡
 
 **Personal Security:**
 - Monitor your own token approvals across different protocols
@@ -200,7 +200,7 @@ The response contract is called automatically, creating an on-chain record and p
 - Monitor employee wallet security
 - Compliance reporting for token approval activities
 
-## 🔮 Future Improvements
+## Future Improvements
 
 This project provides a solid foundation that could be extended with:
 
@@ -224,7 +224,7 @@ This project provides a solid foundation that could be extended with:
 - Optimized data structures for large-scale deployment
 - Advanced caching strategies for historical data
 
-## ⚡ Operator Performance
+##  Operator Performance ⚡
 
 **Current Metrics:**
 - **Collect Gas Usage**: ~40,396 gas
@@ -233,24 +233,6 @@ This project provides a solid foundation that could be extended with:
 - **Bootstrap Time**: ~4.9s
 - **Network Participation**: Successfully reaching consensus thresholds
 
-## 🛡️ Security Considerations
-
-**Private Key Management:**
-- Never commit private keys to version control
-- Use environment variables for sensitive data
-- Regularly rotate operator keys
-
-**Threshold Configuration:**
-- Set thresholds appropriate for monitored token values
-- Consider legitimate DeFi use cases when configuring
-- Test thoroughly before production deployment
-
-**Response Contract Security:**
-- Ensure response contracts have proper access controls
-- Validate all input data in response functions
-- Consider gas costs of response actions
-
-## 🤝 Contributing
 
 Contributions are welcome! This project demonstrates practical decentralized security monitoring. Areas for contribution:
 
@@ -259,9 +241,6 @@ Contributions are welcome! This project demonstrates practical decentralized sec
 - Enhanced detection algorithms
 - Integration with other security tools
 - Documentation improvements
-
-Please feel free to open issues or submit pull requests.
-
 
 ---
 
