@@ -223,13 +223,7 @@ This project provides a solid foundation that could be extended with:
 
 
 
-Contributions are welcome! This project demonstrates practical decentralized security monitoring. Areas for contribution:
-
-- Additional test cases and edge conditions
-- Gas optimization improvements  
-- Enhanced detection algorithms
-- Integration with other security tools
-- Documentation improvements
+Contributions are welcome. Thanks
 
 ---
 
